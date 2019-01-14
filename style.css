@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300");
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  margin-top: 15px;
+  font-weight: 800;
+}
+#mainHeader {
+  width: 100%;
+  background: url("showcase.jpg") no-repeat bottom;
+  background-size: cover;
+  min-height: 300px;
+}
+.btn,
+.form-control {
+  color: white;
+  border: 2px solid #e23d51;
+}
+.form-control {
+  background-color: black;
+}
+.form-control:focus {
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  border: 2px solid #e23d51;
+}
+
+.btn:hover {
+  background-color: #e23d51;
+  color: white;
+}
+ul {
+  border: 2px solid #e23d51;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  width: 100%;
+  border-bottom: 1px solid #e23d51;
+  padding: 0.5rem 0.2rem;
+  font-size: 1.5rem;
+}
+
+i {
+  color: red;
+  font-size: 1.2rem;
+  border-left: 1px solid #e23d51;
+  padding: 0.8rem;
+}
+.clear-tasks {
+  background-color: #e23d51;
+  color: white;
+
+  padding: 0.4rem 1rem;
+}
+.club-name {
+  font-weight: 800;
+  color: #e23d51;
+}
+#guestList {
+  margin-top: 100px;
+}
+.form-group > div {
+  width: 50%;
+  margin-right: 5px;
+}
